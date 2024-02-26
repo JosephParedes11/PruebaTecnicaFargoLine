@@ -1031,11 +1031,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\C#\\WebApi_Demos\\WebApiRest.Net6_ADO\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
+      "projectUniqueName": "C:\\Prueba_Tecnica_FargoLine\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
       "projectName": "WebApiContenedores",
-      "projectPath": "C:\\Proyectos\\C#\\WebApi_Demos\\WebApiRest.Net6_ADO\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
+      "projectPath": "C:\\Prueba_Tecnica_FargoLine\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
       "packagesPath": "C:\\Users\\Joseph\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\C#\\WebApi_Demos\\WebApiRest.Net6_ADO\\WebApiContenedores\\WebApiContenedores\\obj\\",
+      "outputPath": "C:\\Prueba_Tecnica_FargoLine\\WebApiContenedores\\WebApiContenedores\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",

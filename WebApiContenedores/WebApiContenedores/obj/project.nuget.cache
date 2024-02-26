@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5GSlS6YiG+C4YErQRiPRoqyBhwBJfxvqxU8ZWG7mAV32T0ip6as5qeVkeD3aIMUA3SeVtgRD+PmULfZKNatpA==",
+  "dgSpecHash": "0BZSUMpvCVseK+v9IbrMRy58qpivpAahMfZQD/qIt0iAsw6dizvC6ABKTjlWaYZuCi7ZVmbFAHoqXN3+vtW3fQ==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\C#\\WebApi_Demos\\WebApiRest.Net6_ADO\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
+  "projectFilePath": "C:\\Prueba_Tecnica_FargoLine\\WebApiContenedores\\WebApiContenedores\\WebApiContenedores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joseph\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.2\\microsoft.aspnetcore.authentication.jwtbearer.6.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
