@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "1823b898-8d41-469b-b414-85f2df83d300",
+		"name": "FargoLine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27106581",
+		"_collection_link": "https://grey-zodiac-386769.postman.co/workspace/Team-Workspace~329fab1e-13be-4b1b-8e8d-92822ed55784/collection/27106581-1823b898-8d41-469b-b414-85f2df83d300?action=share&source=collection_link&creator=27106581"
+	},
+	"item": [
+		{
+			"name": "FargoLineApis",
+			"item": [
+				{
+					"name": "Autenticación",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vc_correo\":\"joseph@gmail.com\",\r\n    \"vc_clave\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7020/api/Autenticacion/Validar",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7020",
+							"path": [
+								"api",
+								"Autenticacion",
+								"Validar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetContenedores",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb3NlcGhAZ21haWwuY29tIiwibmJmIjoxNzA4OTExNzQzLCJleHAiOjE3MDg5MTMyNDMsImlhdCI6MTcwODkxMTc0M30.k3yx8fUUqyINwPjUNEPguBd2-p2VCzxmtlVcDdWMXnE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7020/api/Contenedor/GetContenedor",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7020",
+							"path": [
+								"api",
+								"Contenedor",
+								"GetContenedor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateContenedor",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb3NlcGhAZ21haWwuY29tIiwibmJmIjoxNzA4ODk0MTA4LCJleHAiOjE3MDg4OTQ0MDgsImlhdCI6MTcwODg5NDEwOH0.aWQCuLEjLbgYFgZn5WteAAXL3lS5bRUAgA9DJMcVAlI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"in_id\": 0, \r\n    \"in_numero\": 987, \r\n    \"in_idTipo\": 3, \r\n    \"in_size\": 40, \r\n    \"dc_peso\": 1259.2, \r\n    \"dc_tara\": 12.55\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7020/api/Contenedor/CreateContenedor",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7020",
+							"path": [
+								"api",
+								"Contenedor",
+								"CreateContenedor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateContenedor",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb3NlcGhAZ21haWwuY29tIiwibmJmIjoxNzA4ODk0MTA4LCJleHAiOjE3MDg4OTQ0MDgsImlhdCI6MTcwODg5NDEwOH0.aWQCuLEjLbgYFgZn5WteAAXL3lS5bRUAgA9DJMcVAlI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"in_id\":17,\r\n    \"in_numero\": 1111, \r\n    \"in_idTipo\": 2, \r\n    \"in_size\": 11, \r\n    \"dc_peso\": 1111.11, \r\n    \"dc_tara\": 11.1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7020/api/Contenedor/UpdateContenedor",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7020",
+							"path": [
+								"api",
+								"Contenedor",
+								"UpdateContenedor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteContenedor",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb3NlcGhAZ21haWwuY29tIiwibmJmIjoxNzA4ODk0MTA4LCJleHAiOjE3MDg4OTQ0MDgsImlhdCI6MTcwODg5NDEwOH0.aWQCuLEjLbgYFgZn5WteAAXL3lS5bRUAgA9DJMcVAlI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7020/api/Contenedor/DeleteContenedor/17",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7020",
+							"path": [
+								"api",
+								"Contenedor",
+								"DeleteContenedor",
+								"17"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
